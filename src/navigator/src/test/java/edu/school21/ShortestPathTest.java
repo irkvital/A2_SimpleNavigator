@@ -13,7 +13,7 @@ class ShortestPathTest {
                 System.out.println("Testing ShortestPath...");
                 Graph graphWiki = new Graph();
                 graphWiki.loadGraphFromFile(
-                                "/home/vital/A2_SimpleNavigator_v1.0_Java-1/src/navigator/src/test/java/edu/school21/graphExamples/txts/graph5.txt");
+                                "src/test/java/edu/school21/graphExamples/txts/graph5.txt");
                 Assertions.assertEquals(0, GraphAlgorithms.getShortestPathBetweenVertices(graphWiki, 1, 1));
                 Assertions.assertEquals(7, GraphAlgorithms.getShortestPathBetweenVertices(graphWiki, 1, 2));
                 Assertions.assertEquals(9, GraphAlgorithms.getShortestPathBetweenVertices(graphWiki, 1, 3));
@@ -35,7 +35,7 @@ class ShortestPathTest {
                 System.out.println("Testing ShortestPath...");
                 Graph graphWiki = new Graph();
                 graphWiki.loadGraphFromFile(
-                                "/home/vital/A2_SimpleNavigator_v1.0_Java-1/src/navigator/src/test/java/edu/school21/graphExamples/txts/graph6.txt");
+                                "src/test/java/edu/school21/graphExamples/txts/graph6.txt");
                 int[][] floydAnswers = { { 0, -1, -2, 0 },
                                 { 4, 0, 2, 4 },
                                 { 5, 1, 0, 2 },
@@ -50,7 +50,7 @@ class ShortestPathTest {
                 System.out.println("Testing ShortestPath...");
                 Graph graphWiki = new Graph();
                 graphWiki.loadGraphFromFile(
-                                "/home/vital/A2_SimpleNavigator_v1.0_Java-1/src/navigator/src/test/java/edu/school21/graphExamples/txts/graph7.txt");
+                                "src/test/java/edu/school21/graphExamples/txts/graph7.txt");
                 int[][] floydAnswers = { { 0, 1, 3, 2 },
                                 { 2147483647, 0, 2, 1 },
                                 { 2147483647, 2147483647, 0, 2147483647 },

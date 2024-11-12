@@ -13,7 +13,7 @@ class AntTest {
         System.out.println("Testing Ants Algorithm...");
         Graph graph = new Graph();
         graph.loadGraphFromFile(
-                "/home/vital/A2_SimpleNavigator_v1.0_Java-1/src/navigator/src/test/java/edu/school21/graphExamples/txts/graph8.txt");
+                "src/test/java/edu/school21/graphExamples/txts/graph8.txt");
         TsmResult antResult = GraphAlgorithms.solveTravelingSalesmanProblem(graph);
         double ansDouble = 253.0;
         System.out.println(antResult.distance + "\n" + antResult.vertices.toString());

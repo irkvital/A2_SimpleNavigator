@@ -12,7 +12,7 @@ class BFSTests {
     void testGraph_1() {
         Graph graph = new Graph();
         graph.loadGraphFromFile(
-                "/home/vital/A2_SimpleNavigator_v1.0_Java-1/src/navigator/src/test/java/edu/school21/graphExamples/txts/graph1.txt");
+                "src/test/java/edu/school21/graphExamples/txts/graph1.txt");
         Integer[][] bfsAnswers = { { 1, 2, 3, 4 },
                 { 2, 1, 3, 4 },
                 { 3, 2, 1, 4 },
@@ -30,7 +30,7 @@ class BFSTests {
     void testGraph_2() {
         Graph graph = new Graph();
         graph.loadGraphFromFile(
-                "/home/vital/A2_SimpleNavigator_v1.0_Java-1/src/navigator/src/test/java/edu/school21/graphExamples/txts/graph2.txt");
+                "src/test/java/edu/school21/graphExamples/txts/graph2.txt");
         Integer[][] bfsAnswers = { { 1, 2, 3, 4, 5 },
                 { 2, 1, 4, 5, 3 },
                 { 3, 1, 5, 2, 4 },
@@ -49,7 +49,7 @@ class BFSTests {
     void testGraph_3() {
         Graph graph = new Graph();
         graph.loadGraphFromFile(
-                "/home/vital/A2_SimpleNavigator_v1.0_Java-1/src/navigator/src/test/java/edu/school21/graphExamples/txts/graph3.txt");
+                "src/test/java/edu/school21/graphExamples/txts/graph3.txt");
         Integer[][] bfsAnswers = { { 1, 2, 8, 3, 4, 5, 6, 7 },
                 { 2, 1, 3, 8, 4, 5, 6, 7 },
                 { 3, 2, 4, 1, 5, 8, 6, 7 },
@@ -71,7 +71,7 @@ class BFSTests {
     void testGraph_4() {
         Graph graph = new Graph();
         graph.loadGraphFromFile(
-                "/home/vital/A2_SimpleNavigator_v1.0_Java-1/src/navigator/src/test/java/edu/school21/graphExamples/txts/graph4.txt");
+                "src/test/java/edu/school21/graphExamples/txts/graph4.txt");
         Integer[][] bfsAnswers = { { 1, 2, 5, 3, 4, 6 },
                 { 2, 1, 3, 5, 4, 6 },
                 { 3, 2, 4, 1, 5, 6 },
